@@ -21,5 +21,5 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. Run the app
 
    ```
-   $ uv run streamlit run streamlit_app.py
+   $ uv run streamlit run nifty200.py
    ```
