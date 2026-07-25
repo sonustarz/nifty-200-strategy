@@ -15,6 +15,36 @@ A Streamlit dashboard that:
 7. Produces BUY, BUY MORE, HOLD, SELL PARTIAL and SELL ALL actions.
 8. Shows when the strategy says those actions should be executed.
 
+Universe: Nifty 200
+
+Frequency: Monthly
+
+Market filter:
+Nifty 200 > 200-day SMA
+
+Stock filters:
+Close > 200-day SMA
+50-day SMA > 200-day SMA
+Close > 90% of 52-week high
+
+Ranking:
+50% volatility-adjusted 6-month momentum
++
+50% volatility-adjusted 12-month momentum
+
+Portfolio:
+Top 20 stocks
+Equal weight
+Maximum 30% per sector
+
+Exit:
+Below 200-day SMA
+or below rank 30
+or market filter becomes negative
+
+
+
+
 Strategy timing
 ---------------
 Official signal:
